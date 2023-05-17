@@ -20,8 +20,7 @@ To run the Game of Life program, you need to have Java Development Kit (JDK) ins
 1. Clone this repository to your local machine or download the source code as a ZIP file.
 2. Open a terminal or command prompt and navigate to the project directory.
 3. Compile the Java source files by running the following command:
-
-"javac App.java"
+<pre>javac App.java</pre>
 
 4. Once the compilation is successful, you can run the program using the following command:
 
