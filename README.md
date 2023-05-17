@@ -21,10 +21,8 @@ To run the Game of Life program, you need to have Java Development Kit (JDK) ins
 2. Open a terminal or command prompt and navigate to the project directory.
 3. Compile the Java source files by running the following command:
 <pre>javac App.java</pre>
-
 4. Once the compilation is successful, you can run the program using the following command:
-
-"java App"
+<pre>java App</pre>
 
 5. The program will prompt you to enter the size of the grid and the number of generations to simulate.
 6. After providing the input, the Game of Life simulation will start, and you will see the grid being updated at each generation.
