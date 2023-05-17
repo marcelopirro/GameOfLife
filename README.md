@@ -38,7 +38,7 @@ If you find any issues or have suggestions for improvements, please feel free to
 
 **Happy coding!**
 
-<img src="img/example.gif" alt="Alt Text" width="300">
+<img src="img/example.gif" alt="Alt Text" width="500">
 
 
 
