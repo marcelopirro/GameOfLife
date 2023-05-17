@@ -38,7 +38,7 @@ If you find any issues or have suggestions for improvements, please feel free to
 
 **Happy coding!**
 
-![Alt Text](img/example.gif)
+<img src="img/example.gif" alt="Alt Text" width="300">
 
 
 
