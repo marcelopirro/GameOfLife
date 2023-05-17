@@ -24,7 +24,7 @@ public class GameOfLife extends JFrame{
         cells = new JButton[size][size];
 
         //JFrame GUI
-        setSize(500, 500); //px
+        setSize(1000, 1000); //px
         setLayout(new GridLayout(size, size)); //define a grid
         setResizable(false); // set whether th Jframe is resizable by the user
         setLocationRelativeTo(null); // center the JFrame on the screen
@@ -36,7 +36,7 @@ public class GameOfLife extends JFrame{
                 JButton temp = new JButton();
                 //set colors on the cells
                 if(cellsMap[i][j]){
-                    temp.setBackground(Color.GREEN);
+                    temp.setBackground(Color.BLACK);
                 }
                 else {
                     temp.setBackground(Color.WHITE);
@@ -91,7 +91,7 @@ public class GameOfLife extends JFrame{
                 for(int i=0; i<size; i++){
                     for(int j=0; j<50; j++){
                         if(cellsMap[i][j]){
-                            cells[i][j].setBackground(Color.GREEN);
+                            cells[i][j].setBackground(Color.BLACK);
                         }else{
                             cells[i][j].setBackground(Color.WHITE);
                         }
