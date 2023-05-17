@@ -24,7 +24,7 @@ public class GameOfLife extends JFrame{
         cells = new JButton[size][size];
 
         //JFrame GUI
-        setSize(1000, 1000); //px
+        setSize(500, 500); //px
         setLayout(new GridLayout(size, size)); //define a grid
         setResizable(false); // set whether th Jframe is resizable by the user
         setLocationRelativeTo(null); // center the JFrame on the screen
