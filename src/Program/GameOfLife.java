@@ -36,7 +36,7 @@ public class GameOfLife extends JFrame{
                 JButton temp = new JButton();
                 //set colors on the cells
                 if(cellsMap[i][j]){
-                    temp.setBackground(Color.BLACK);
+                    temp.setBackground(Color.GREEN);
                 }
                 else {
                     temp.setBackground(Color.WHITE);
@@ -91,10 +91,10 @@ public class GameOfLife extends JFrame{
                 for(int i=0; i<size; i++){
                     for(int j=0; j<50; j++){
                         if(cellsMap[i][j]){
-                            cells[i][j].setBackground(Color.BLACK);
+                            cells[i][j].setBackground(new Color(0, rnd.nextInt(156) + 100, 0) ); // Select shade of green within range random.nextInt(upperBound - lowerBound + 1) + lowerBound
                         }else{
                             cells[i][j].setBackground(Color.WHITE);
-                        }
+                        } 
                     }
                 }
 
