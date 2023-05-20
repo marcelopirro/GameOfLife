@@ -16,7 +16,7 @@ public class GameOfLife extends JFrame{
     private boolean cellsMap[][]; //state of the cells (alive or dead)
     private JButton cells[][]; //labeled button, represent each cell
 
-
+    //Constructor
     public GameOfLife() {
         Random rnd = new Random(); //use for set the values of arrays
 
@@ -46,7 +46,7 @@ public class GameOfLife extends JFrame{
             }
         }
 
-        setVisible(true);
+        setVisible(true); //set visible
         setDefaultCloseOperation(EXIT_ON_CLOSE); //The EXIT_ON_CLOSE value is a constant in the JFrame class that indicates that the application should exit when the frame is closed.
         
 
@@ -115,7 +115,7 @@ public class GameOfLife extends JFrame{
                         count++; //number of Neighbours alive
                     }
                 }catch(Exception e){
-
+                    //nothing
                 }
 
             }
