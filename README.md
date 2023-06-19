@@ -33,6 +33,12 @@ Feel free to modify the source code to experiment with different initial configu
 
 If you find any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request. Contributions are welcome!
 
+1. Fork the repository.
+2. Create a branch for your new feature (git checkout -b feature/new-feature).
+3. Commit your changes (git commit -am 'Add new feature').
+4. Push to the branch (git push origin feature/new-feature).
+5. Open a pull request in the original repository.
+
 **Happy coding!**
 
 <img src="img/example.gif" alt="Alt Text" width="500">
